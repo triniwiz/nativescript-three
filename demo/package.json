@@ -1,0 +1,31 @@
+{
+  "nativescript": {
+    "id": "org.nativescript.demo",
+    "tns-android": {
+      "version": "6.4.1"
+    },
+    "tns-ios": {
+      "version": "6.4.0"
+    }
+  },
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "repository": "<fill-your-repository-here>",
+  "dependencies": {
+    "@nativescript/theme": "~2.3.0",
+    "babylonjs": "^4.1.0",
+    "babylonjs-gui": "^4.1.0",
+    "babylonjs-materials": "^4.1.0",
+    "nativescript-browser-polyfill": "file:../../nativescript-browser-polyfill/src",
+    "nativescript-canvas-plugin": "file:../../nativescript-canvas-plugin/src",
+    "nativescript-three": "file:../src",
+    "three": "^0.115.0",
+    "tns-core-modules": "~6.4.0"
+  },
+  "devDependencies": {
+    "nativescript-dev-webpack": "~1.5.0",
+    "typescript": "~3.5.3"
+  },
+  "gitHead": "d8bdf0799a219051f28f8abd7c258d2bf2fce6e1",
+  "readme": "NativeScript Application"
+}
