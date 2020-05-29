@@ -1,12 +1,17 @@
 # nativescript-three
 
-### Installation
+
+[![npm](https://img.shields.io/npm/v/nativescript-three.svg)](https://www.npmjs.com/package/nativescript-three)
+[![npm](https://img.shields.io/npm/dt/nativescript-three.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-three)
+[![Build Status](https://travis-ci.org/triniwiz/nativescript-three.svg?branch=master)](https://travis-ci.org/triniwiz/nativescript-three)
+
+## Installation
 
 ```bash
 npm i three nativescript-three
 ```
 
-### Usage
+## Usage
 
 ```js
 import TNSTHREE from 'nativescript-three';
@@ -14,7 +19,7 @@ import TNSTHREE from 'nativescript-three';
 
 ## Creating a Renderer
 
-### `TNSTHREE.Renderer({ gl: WebGLRenderingContext, width: number, height: number, pixelRatio: number, ...extras })`
+#### `TNSTHREE.Renderer({ gl: WebGLRenderingContext, width: number, height: number, pixelRatio: number, ...extras })`
 
 Given a `gl (context)` from an
 [`TNSCanvas`](https://github.com/triniwiz/nativescript-canvas-plugin), return a
