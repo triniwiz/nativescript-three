@@ -1,7 +1,7 @@
 {
 	"name": "nativescript-three",
-	"version": "1.0.0-alpha0",
-	"description": "Utilities for using THREE.js on Nativescript",
+	"version": "1.0.0-alpha1",
+	"description": "Utilities for using THREE.js on NativeScript",
 	"main": "index",
 	"nativescript": {
 		"platforms": {
@@ -29,7 +29,7 @@
 		"plugin.prepare": "npm run build && cd ../demo && tns plugin remove nativescript-three && tns plugin add ../src && cd ../demo-angular && tns plugin remove nativescript-three && tns plugin add ../src",
 		"clean": "npm run demo.reset && npm run demo-angular.reset && npx rimraf -- node_modules package-lock.json && npm i",
 		"local.dev": "npm i ../../nativescript-browser-polyfill/src && npm i ../../nativescript-canvas-plugin/src && cd ../demo && npm i ../../nativescript-canvas-plugin/src && cd ../demo-angular && npm i ../../nativescript-canvas-plugin/src",
-		"pub.dev": "npm i nativescript-canvas-plugin@latest && npm i nativescript-browser-polyfill@latest"
+		"pub.dev": "npm i nativescript-browser-polyfill@latest"
 	},
 	"keywords": [
 		"NativeScript",
@@ -47,20 +47,20 @@
 	"license": "Apache-2.0",
 	"homepage": "https://github.com/triniwiz/nativescript-three",
 	"devDependencies": {
+		"@nativescript/core": "~6.5.7",
 		"@types/three": "^0.103.2",
 		"prompt": "^1.0.0",
 		"rimraf": "^2.6.3",
 		"semver": "^5.6.0",
-		"tns-core-modules": "^6.0.0",
-		"tns-platform-declarations": "^6.0.0",
+		"tns-platform-declarations": "~6.5.0",
 		"tslint": "^5.12.1",
-		"typescript": "~3.4.5"
+		"typescript": "~3.8.3"
 	},
 	"dependencies": {
-		"nativescript-browser-polyfill": "~1.0.0-alpha4"
+		"nativescript-browser-polyfill": "^1.0.0-alpha6"
 	},
 	"peerDependencies": {
-		"nativescript-canvas-plugin": "~0.5.0",
+		"nativescript-canvas-plugin": "~0.8.0",
 		"three": "^0.116.1"
 	},
 	"bootstrapper": "nativescript-plugin-seed"
