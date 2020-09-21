@@ -1,5 +1,6 @@
 # nativescript-three
 
+**The source is now managed at https://github.com/NativeScript/canvas**
 
 [![npm](https://img.shields.io/npm/v/nativescript-three.svg)](https://www.npmjs.com/package/nativescript-three)
 [![npm](https://img.shields.io/npm/dt/nativescript-three.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-three)
